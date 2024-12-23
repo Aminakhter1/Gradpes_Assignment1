@@ -1,0 +1,35 @@
+
+  
+  .marquee {
+    display:flex;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+
+  }
+  .marquee span {
+    padding:2rem;
+    font-size: 1.5rem;
+    font-weight: 1rem;
+  }
+  
+  .marquee img {
+    height: 100%; /* Ensure logos fit within the marquee height */
+    margin-right: 20px; /* Adds spacing between images */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .bi-house-door{
+    color:red;
+    font-weight: 3rem;
+    
+  }
+  

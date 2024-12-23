@@ -1,0 +1,44 @@
+/* App.css */
+.aboutcontainer{
+  background-color: rgb(235, 221, 221);
+}
+.icon {
+    font-size: 2rem;
+    color: #ff5722; /* Customize icon color */
+  }
+  h2 {
+    font-weight: bold;
+    color: #000;
+  }
+  h2 .text-primary {
+    color: #e85d04; /* Customize Campus Tech text color */
+  }
+  p {
+    color: #555; /* Text color for features */
+  }
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  .aboutbtn{
+    display:inline-block;
+    border:1px solid black;
+    border-radius:20px 20px 20px 20px;
+    padding:0.5rem;
+  }
+  .aboutbtn:hover{
+    background-color: aqua;
+  }
+  .aboutrow{
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+  
+  }
+  

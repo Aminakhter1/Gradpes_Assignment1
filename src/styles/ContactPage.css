@@ -1,0 +1,47 @@
+.image-wrapper {
+    position: relative;
+    width: 60%; /* Adjust based on your design */
+    height: 100%; /* Ensure a square shape for circular clipping */
+    border-radius: 60% 1% 1% 1%;
+    overflow: hidden;
+
+  }
+  .imagemain{
+    justify-content: end;
+
+    
+
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .contactbtn{
+    display:inline-block;
+    border:1px solid black;
+    border-radius:20px 20px 20px 20px;
+    padding:0.5rem;
+    margin-top: 1rem;;
+  }
+  .contactbtn:hover{
+    background-color: aqua;
+  }
+  .contact{
+    display: relative;
+
+    align-items: center;
+    align-content: center;
+    padding:8rem;
+  }
+  .line1{
+    height:1rem;
+    margin-left: 70%;
+    margin-bottom: 1rem;
+    width: 40%;
+    background-color: rgb(213, 86, 12);
+  
+
+  }
+  

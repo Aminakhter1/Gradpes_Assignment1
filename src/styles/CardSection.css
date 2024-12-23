@@ -1,0 +1,72 @@
+.carousel-row{
+  
+    
+    overflow-x: scroll;
+    scrollbar-color: rgb(6, 109, 10) rgb(181, 176, 176);
+    margin: 20px auto;
+    padding: 15px;
+  
+
+  
+}
+.card {
+    transition: transform 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    border-radius:10px 10px 10px 50px;
+    box-shadow:4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .icon {
+    font-size: 2rem;
+    color: #ff5722; 
+  }
+  
+  .cardbtn{
+    display:inline-block;
+    border:1px solid black;
+    border-radius:20px 20px 20px 20px;
+    padding:0.5rem;
+  }
+  .cardbtn:hover{
+    background-color: aqua;
+  }
+  .card-title{
+    color:red;
+  }
+  .headerred{
+    color:red;
+    font-weight: 700;
+  }
+  
+/* Carousel Container */
+.carousel-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  cursor: grab;
+  position: relative;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+
+.carousel-container:active {
+  cursor: grabbing;
+}
+
+.carousel-row {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 200px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+}

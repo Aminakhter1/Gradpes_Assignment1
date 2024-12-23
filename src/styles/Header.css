@@ -1,0 +1,45 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .headerrow{
+    
+    padding-top:2.5rem;
+  }
+  .carousel-points{
+
+padding-left:7%;
+  }
+  
+  .carousel-points .bi {
+    font-size: 1rem;
+    
+  }
+  
+  .carousel-points .text-danger {
+    color: #ff0000 !important;
+  }
+  .headerbtn{
+    display:inline-block;
+    border:1px solid black;
+    border-radius:20px 20px 20px 20px;
+    padding:0.5rem;
+  }
+  .headerbtn:hover{
+    background-color: aqua;
+  }
+  .btnarrow{
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 1rem;;
+  }
+  .line{
+    height:1rem;
+    width: 40%;
+    background-color: rgb(213, 173, 12);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+  }
+  
