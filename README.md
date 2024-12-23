@@ -30,7 +30,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone <repo_url>
+
 Install dependencies:
 
 bash
